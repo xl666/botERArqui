@@ -122,11 +122,6 @@ nlu:
     - dos periodos
     - ¿Que pasa si no acredito experiencia recepcional en los dos periodos?
 
-- intent: plan_rigido
-  examples: |
-    - plan rigido
-    - titulacion
-    - ¿Cómo puedo titularme si soy del plan rígido?
 
 - intent: plan_rigido
   examples: |
@@ -158,8 +153,6 @@ nlu:
 - intent: examen_plan_rigido
   examples: |
     - examen plan rigido
-    - plan rigido
-    - Plan rígido
     - Si soy del plan rígido qué requisitos existen para presentar examen profesional?
 
 - intent: resultado

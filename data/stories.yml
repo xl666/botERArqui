@@ -1,0 +1,160 @@
+version: "3.0"
+
+stories:
+
+
+- story: saludar
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_temario
+
+- story: saludar2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_did_that_help
+  - intent: deny
+  
+
+- story: despedirse
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: preguntar_temario
+  steps:
+  - intent: temario
+  - action: utter_temario
+
+- story: preguntar_definicion
+  steps:
+  - intent: definicion
+  - action: utter_definicion
+
+- story: preguntar_requisitos
+  steps:
+  - intent: requisitos
+  - action: utter_requisitos
+
+
+- story: preguntar_jurado
+  steps:
+  - intent: jurado
+  - action: utter_jurado
+
+- story: preguntar_calificacion
+  steps:
+  - intent: calificacion
+  - action: utter_calificacion
+
+- story: preguntar_tiempo
+  steps:
+  - intent: tiempo
+  - action: utter_tiempo
+
+- story: preguntar_prorroga
+  steps:
+  - intent: prorroga
+  - action: utter_prorroga
+
+
+- story: preguntar_ultimo_periodo
+  steps:
+  - intent: ultimo_periodo
+  - action: utter_ultimo_periodo
+
+- story: preguntar_evaluacion
+  steps:
+  - intent: evaluacion
+  - action: utter_evaluacion
+
+- story: preguntar_objecion
+  steps:
+  - intent: objecion
+  - action: utter_objecion
+
+- story: preguntar_dos_periodos
+  steps:
+  - intent: dos_periodos
+  - action: utter_dos_periodos
+
+- story: preguntar_plan_rigido
+  steps:
+  - intent: plan_rigido
+  - action: utter_plan_rigido 
+  
+
+- story: preguntar_titulacion_promedio
+  steps:
+  - intent: titulacion_promedio
+  - action: utter_titulacion_promedio
+
+- story: preguntar_titulacion_examen
+  steps:
+  - intent: titulacion_examen
+  - action: utter_titulacion_examen
+
+- story: preguntar_titulacion_egel
+  steps:
+  - intent: titulacion_egel
+  - action: utter_titulacion_egel
+
+- story: preguntar_examen_plan_rigido
+  steps:
+  - intent: examen_plan_rigido
+  - action: utter_examen_plan_rigido
+
+
+- story: preguntar_resultado
+  steps:
+  - intent: resultado
+  - action: utter_resultado
+
+- story: preguntar_reprobacion
+  steps:
+  - intent: reprobacion
+  - action: utter_reprobacion
+
+- story: preguntar_mencion_honorifica
+  steps:
+  - intent: mencion_honorifica
+  - action: utter_mencion_honorifica
+  
+- story: preguntar_calendarios
+  steps:
+  - intent: calendarios
+  - action: utter_mcalendarios
+
+- story: preguntar_formato_inscripcion
+  steps:
+  - intent: formato_inscripcion
+  - action: utter_formato_inscripcion
+
+- story: preguntar_formato_revision
+  steps:
+  - intent: formato_revision
+  - action: utter_formato_revision
+
+- story: preguntar_solicitud_prorroga
+  steps:
+  - intent: solicitud_prorroga
+  - action: utter_solicitud_prorroga
+
+- story: preguntar_guia_elaboracion_tesis
+  steps:
+  - intent: guia_elaboracion_tesis
+  - action: utter_guia_elaboracion_tesis
+
+
+- story: preguntar_formato_autorizacion_edicion
+  steps:
+  - intent: formato_autorizacion_edicion
+  - action: utter_formato_autorizacion_edicion
+
+- story: preguntar_solicitud_examen
+  steps:
+  - intent: solicitud_examen
+  - action: utter_solicitud_examen

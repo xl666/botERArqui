@@ -1,0 +1,354 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - help
+  - definicion
+  - requisitos
+  - jurado
+  - tiempo
+  - prorroga
+  - ultimo_periodo
+  - evaluacion
+  - calificacion
+  - objecion
+  - dos_periodos
+  - plan_rigido
+  - titulacion_promedio
+  - titulacion_examen
+  - titulacion_egel
+  - examen_plan_rigido
+  - resultado
+  - reprobacion
+  - mencion_honorifica
+  - calendarios
+  - formato_inscripcion
+  - formato_revision
+  - solicitud_prorroga
+  - guia_elaboracion_tesis
+  - formato_autorizacion_edicion
+  - solicitud_examen
+
+responses:
+  utter_greet:
+  - text: "Hola, ¿Cómo estás?"
+  - text: "Hola"
+  - text: "Mucho gusto en saludarte"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "¿Necesitas ayuda?"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Adiós"
+  - text: "ten un buen día"
+
+  utter_iamabot:
+  - text: "I soy un bot, patrocinado por la FA y FEI, UV."
+
+  utter_definicion:
+  - text: |
+      Artículo 78.
+        - Los alumnos que cursen planes de estudio flexibles de nivel técnico y de 
+        estudios profesionales podrán acreditar la experiencia recepcional a 
+        través de las siguientes opciones:
+          I. Por trabajo escrito presentado en formato electrónico bajo la 
+          modalidad de tesis, tesina, monografía, reporte o memoria y las demás que 
+          apruebe la Junta Académica de cada programa educativo;
+          II. Por trabajo práctico, que puede ser de tipo científico, educativo, 
+          artístico o técnico;
+          III. Por promedio, cuando hayan acreditado todas las experiencias educativas
+          del plan de estudios con promedio ponderado mínimo de 9.00 en ordinario en primera inscripción, en los casos que así lo apruebe la Junta Académica;
+          IV. Por examen general de conocimientos; y 
+          V. Por presentación de documentos de acuerdo con lo establecido en el 
+          artículo 51 del Estatuto de estudiantes.
+
+  utter_horas:
+  - text: |
+      Art. 75. La duración del servicio social no puede ser menor a seis meses
+      ni mayor a un año, ni cubrir un tiempo menor de 480 horas, pudiendo realizarse
+      en uno o dos periodos escolares continuos. determinará si este porcentaje se
+      incrementa, atendiendo el perfil profesional requerido; II. Estar inscrito,
+      eligiendo la línea de generación y aplicación del conocimiento, de acuerdo con
+      la oferta del programa educativo, para las opciones señaladas en las fracciones
+      I y II del artículo 78 del Estatuto de estudiantes 2008; y III. Presentar ante el
+      Secretario de la Facultad o titular de la entidad académica la solicitud y la
+      documentación con la cual se pretenda acreditar la experiencia recepcional, para
+      las opciones señaladas en las fracciones III, IV y V del artículo 78 del Estatuto
+      de estudiantes 2008
+
+  
+  utter_requisitos:
+  - text: |
+      Artículo 80. Para cursar y acreditar la experiencia recepcional, el alumno debe:
+        I. Cumplir como mínimo con el 70 % de los créditos del programa educativo. 
+        La Junta Académica determinará si este porcentaje se incrementa, atendiendo el 
+        perfil profesional requerido;
+        II. Estar inscrito, eligiendo la línea de generación y aplicación del 
+        conocimiento, de acuerdo con la oferta del programa educativo, para las 
+        opciones señaladas en las fracciones I y II del artículo 78 del Estatuto 
+        de estudiantes 2008; y
+        III. Presentar ante el Secretario de la Facultad o titular de la entidad 
+        académica la solicitud y la documentación con la cual se pretenda acreditar 
+        la experiencia recepcional, para las opciones señaladas en las fracciones III, 
+        IV y V del artículo 78 del Estatuto de estudiantes 2008.
+      En caso de la Facultad de Arquitectura Xalapa, se debe haber acreditado 
+      la EE Síntesis del Diseño Arquitectónico.
+
+
+
+
+  utter_jurado:
+  - text: |
+      - Artículo 81:
+        - Para realizar el trabajo escrito o práctico, el alumno contará con 
+        un Director del trabajo recepcional, que será nombrado por el Director 
+        de la entidad académica. El Director podrá ser el mismo académico asignado 
+        a la experiencia recepcional; 
+        - El alumno podrá solicitar al Consejo Técnico que el Director del 
+        trabajo recepcional sea algún académico de la propia Facultad o de otra 
+        entidad académica de la Universidad Veracruzana, o bien un académico externo. 
+        Si éste fuera el caso, el Director del trabajo recepcional externo deberá ser 
+        docente o investigador invitado, pertenecer al mismo nivel educativo o a un 
+        nivel superior, poseer como mínimo el grado académico que se va a otorgar y 
+        ser un experto en la línea de investigación del trabajo recepcional. NOTA: Se
+        sugiere elegir un director (a) de tesis y en conjunto con él (ella) 
+        seleccionar a los profesores asesores.
+
+
+  utter_tiempo:
+  - text: |
+      Artículo 81. Para las opciones de acreditación de la experiencia recepcional
+      por trabajo escrito o práctico deberá observarse lo siguiente: El plan de estudios 
+      respectivo debe establecer la duración de la experiencia recepcional en uno o dos 
+      períodos. Cuando la duración sea de dos periodos, el alumno deberá cursarla de 
+      manera continua y con una sola inscripción.
+
+  utter_prorroga:
+  - text: |
+      Artículo 81. En caso de que el alumno no concluya su trabajo escrito o 
+      práctico, en el tiempo de duración de la experiencia educativa y demuestre un 
+      avance mínimo del 75%, podrá solicitar al Secretario de la Facultad o titular de 
+      la entidad académica, previa autorización del Director del trabajo recepcional, 
+      una prórroga por única ocasión para terminarlo, ya sea en primera o segunda 
+      inscripción, misma que no podrá ser mayor a cuarenta días hábiles a partir de 
+      la fecha programada para la conclusión de la experiencia educativa. En caso de no 
+      acreditarla, deberá cursarla en segunda inscripción.
+
+  utter_ultimo_periodo:
+  - text: |
+      Artículo 81. Cuando el alumno se encuentre en el último periodo escolar,
+      de acuerdo con el tiempo máximo de permanencia permitido, y la duración de la 
+      experiencia recepcional sea de dos periodos, el tiempo máximo de permanencia podrá 
+      prorrogarse por un período más, únicamente para concluir la experiencia recepcional. 
+      Para que la prórroga sea procedente, el alumno deberá tener acreditadas todas 
+      las demás experiencias educativas del plan de estudios.
+
+  utter_evaluacion_trabajo_escrito:
+  - text: |
+      Artículo 81. La evaluación de la experiencia recepcional la realizará 
+      un jurado constituido por tres integrantes, nombrados por el Director de la Facultad,
+      en el que se incluirá al Director del trabajo recepcional del alumno y podrá 
+      incluirse al académico designado. No podrán participar como jurados los académicos 
+      que tengan parentesco consanguíneo o civil con el sustentante.
+
+  utter_calificacion:
+  - text: |
+      Artículo 81. La calificación de la experiencia recepcional la asentará
+      el académico designado para la misma, a partir de la valoración que realice el jurado.
+
+  utter_objecion:
+  - text: |
+      Artículo 81. El Consejo Técnico u órgano equivalente conocerá y resolverá 
+      la objeción justificada que el alumno presente respecto de algún miembro del jurado.
+
+  utter_dos_periodos:
+  - text: |
+      Artículo 82. Si el alumno no acredita la experiencia recepcional en las 
+      dos inscripciones a las que tiene derecho, sólo podrá acreditarla mediante el examen 
+      general de conocimientos o el examen general para el egreso del Ceneval, de existir 
+      para el programa educativo que cursó o esté cursando.
+
+  utter_planes_rigidos:
+  - text: |
+      - Artículo 87: Los alumnos que cursen planes de estudio rígidos pueden optar por las 
+      siguientes modalidades de titulación:
+        I. Por trabajo recepcional escrito presentado en formato electrónico, bajo la 
+        modalidad de tesis, tesina, monografía, reporte o memoria;
+        II. Por trabajo práctico, que puede ser de tipo científico, educativo, artístico 
+        o técnico;
+        III. Por promedio;
+        IV. Por estudios de posgrado; 
+        V. Por examen general de conocimientos; y 
+        VI. Por examen general para el egreso del Ceneval.
+      - Artículo 88. El Director de la Facultad o el titular de la entidad académica 
+      designará el jurado correspondiente, que en un acto formal expedirá el acta 
+      de examen profesional o de titulación.
+
+  utter_titulacion_promedio:
+  - text: |
+      Artículo 90. Los alumnos o egresados de planes de estudio rígidos podrán 
+      obtener su título sin necesidad de presentar examen profesional cuando hayan 
+      acreditado todas las experiencias educativas establecidas en el plan de estudios 
+      correspondiente con promedio mínimo de 9.00 en evaluación ordinaria y en primera 
+      inscripción.
+
+  utter_titulacion_examen:
+  - text: |
+      - Artículo 92. Los alumnos o egresados de planes de estudio rígidos podrán 
+      presentar el examen general de conocimientos como modalidad de titulación. 
+      En caso de no aprobarlo, pueden presentarlo de nuevo en un plazo no mayor de seis 
+      meses, o bien optar por otra de las modalidades de titulación previstas en este 
+      Estatuto.
+      - Artículo 93. Los alumnos de planes de estudio flexibles podrán acreditar la 
+      experiencia recepcional mediante la presentación del examen general de 
+      conocimientos. En caso de no acreditarla, pueden cursarla en segunda inscripción 
+      bajo la misma opción, o en otra de las previstas en el artículo 78 del Estatuto
+      de estudiantes 2008.
+      - El Secretario de la Facultad asentará la calificación obtenida.
+
+  utter_titulacion_egel:
+  - text: |
+      Artículo 94. Los alumnos o egresados de planes de estudio rígidos 
+      podrán presentar el examen general para el egreso del Ceneval, debiendo obtener 
+      1000 o más puntos del Índice Ceneval Global, en una sola presentación, u obtener el 
+      testimonio de Desempeño Satisfactorio o Sobresaliente, como modalidad de titulación. 
+      En caso de no obtener la puntuación o el testimonio establecido, establecida podrán 
+      presentarlo una vez más, o bien optar por otra de las modalidades de titulación 
+      previstas en este Estatuto.
+
+  utter_examen_plan_rigido:
+  - text: |
+      - Artículo 97. Para la presentación del examen profesional, los alumnos deben 
+      cumplir con los siguientes requisitos:
+        I. Haber acreditado todas las asignaturas que establezca el plan de estudios 
+        del programa educativo correspondiente; 
+        II. Haber liberado el servicio social; 
+        III. No tener adeudos con la Universidad Veracruzana; y 
+        IV. Pagar el arancel correspondiente
+      
+  utter_resultado:
+  - text: |
+      - Artículo 100. El resultado del examen profesional o de grado podrá ser:
+        I. Reprobado;
+        II. Aprobado por mayoría; 
+        III. Aprobado por unanimidad; y 
+        IV. Aprobado por unanimidad con Mención Honorífica. El jurado del examen 
+        asentará en el acta respectiva el resultado del mismo.
+
+  utter_reprobacion:
+  - text: |
+      - Artículo 101. Si el resultado del examen fuere reprobado, el sustentante 
+      dispondrá de un plazo no mayor de seis meses para presentar nuevamente el examen 
+      con el mismo trabajo recepcional.
+      - Artículo 102. Si los alumnos reprueban hasta en dos ocasiones o no se 
+      presentan dos veces al examen, deberán elaborar un nuevo trabajo recepcional y 
+      solicitar su presentación una sola vez más, en un plazo que no excederá de dos 
+      años.
+
+  utter_mencion_honorifica:
+  - text: |
+      - Artículo 105. Mención honorífica es el reconocimiento a la excelencia 
+      académica que otorga la Universidad Veracruzana a sus egresados.
+      - Artículo 106. En los estudios de técnico, técnico superior universitario 
+      o profesional asociado y licenciatura, de planes de estudio rígidos, 
+      el jurado que aplica el examen profesional asentará en el acta respectiva que 
+      el sustentante se ha hecho acreedor a la Mención Honorífica. El otorgamiento de 
+      a Mención Honorífica estará sujeto a los siguientes requisitos: 
+        I. Haber obtenido un promedio general mínimo de 9.00 en evaluación ordinaria 
+        de primera inscripción;
+        II. Presentar un trabajo recepcional escrito presentado en formato electrónico 
+        o un trabajo práctico, en cualquiera de sus modalidades, que constituya una 
+        aportación relevante en la disciplina correspondiente; y 
+        III. Demostrar el dominio del tema del trabajo recepcional en el examen 
+        profesional o de grado.
+
+  utter_calendarios:
+  - text: |
+      - https://www.uv.mx/arquitectura/vinculacion/ee-experiencia-recepcional/
+      - Se debe realizar un oficio por parte del estudiante al coordinador de 
+      Experiencia Recepcional en turno para aceptar el oficio de avance extemporáneo
+      explicando el motivo por el cual no se entregó en tiempo y forma.
+      - Se deberá realizar un oficio por parte del estudiante al Honorable Consejo 
+      Técnico explicando solicitando pueda ser avalado su viabilidad de tema y 
+      entregando los formatos ER-01 ER-02 y ER-03.
+      - Se debe realizar un oficio por parte del estudiante y su director de trabajo
+      recepcional al Honorable Consejo Técnico explicando el motivo y solicitando 
+      pueda ser presentado de forma extemporánea aun cuando se incurra en fechas 
+      de estatuto de alumnos.
+
+  utter_formato_inscripcion:
+  - text: |
+      El formato de inscripción se puede encontrar en el siguiente 
+      <a href= https://www.uv.mx/arquitectura/vinculacion/ee-experiencia-recepcional/ > enlace </a>
+
+  utter_formato_revision:
+  - text: |
+      Los formatos E-04, E05 y E06 se pueden encontrar en el siguiente 
+      <a href= https://www.uv.mx/arquitectura/vinculacion/ee-experiencia-recepcional/ > enlace </a>
+
+
+  utter_solicitud_prorroga:
+  - text: |
+      El formato E-08 para solicitar prórroga se puede encontrar en el siguiente 
+      <a href= https://www.uv.mx/arquitectura/vinculacion/ee-experiencia-recepcional/ > enlace </a>
+
+
+  utter_guia_elaboracion_tesis:
+  - text: |
+      Las guías para elaborar tesis en arquitectura y tesis las podrás encontrar
+      en el siguiente <a href= https://www.uv.mx/arquitectura/vinculacion/ee-experiencia-recepcional/ > enlace </a>
+
+  
+  utter_autorizacion_edicion:
+  - text: |
+      El formato de autorización de edición E-09 se puede encontrar en 
+      el siguiente <a href= https://www.uv.mx/arquitectura/vinculacion/ee-experiencia-recepcional/ > enlace </a>
+
+ 
+  utter_solicitud_examen:
+  - text: |
+      El formato de solicitud de examen E-10 se puede encontrar en el siguiente 
+      <a href= https://www.uv.mx/arquitectura/vinculacion/ee-experiencia-recepcional/ > enlace </a>
+
+     
+
+
+  utter_temario:
+  - text: |
+      Te puedo ayudar con los siguientes temas:
+      - definición
+      - requisitos
+      - jurado
+      - tiempo
+      - prórroga
+      - ultimo periodo
+      - evaluación
+      - calificación
+      - objeción
+      - dos periodos
+      - plan rígido
+      - titulación por promedio
+      - titulación por examend de conocimientos
+      - titulación por examen Egel
+      - examen plan rígido
+      - resultado
+      - reprobación
+      - mención honorífica
+      - calendarios
+      - formato de inscripción
+      - formato de revisión
+      - solicitud prórroga
+      - guía para elaboración de tesis
+      - formato de autorización de edición
+      - solicitud de examen
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,227 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hola
+    - buenos días
+    - buenas tardes
+    - bro
+    - que tal
+
+- intent: goodbye
+  examples: |
+    - adios
+    - bye
+    - me voy
+    - hasta luego
+    - hasta nunca
+    - nos vemos
+    - see you
+    - salir
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - of course
+    - correct
+    - si
+    - S
+    - ok
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - no lo creo
+    - no es asi
+
+- intent: bot_challenge
+  examples: |
+    - eres un bot?
+    - eres humano?
+    - estoy hablando con un bot?
+    - estoy hablando con un humano?
+
+- intent: temario
+  examples: |
+    - temario
+    - qué sabes hacer?
+    - que sabes?
+    - temas
+    - ayuda
+    - ayudame
+    - help
+
+- intent: definicion
+  examples: |
+    - definicion
+    - experiencia recepcional
+
+- intent: requisitos
+  examples: |
+    - requisitos
+    - cuando cursar experiencia recepcional
+    - cuando puedo cursar experiencia recepcional
+
+- intent: jurado
+  examples: |
+    - jurado
+    - director
+    - codirector
+    - sinodal
+    - asesores
+    - asesor
+    - ¿quién asigna al director de tesis?
+
+- intent: tiempo
+  examples: |
+    - tiempo
+    - ¿Cuánto tiempo tengo para acreditar experiencia recepcional?
+    - acreditar
+
+- intent: prorroga
+  examples: |
+    - prorroga
+    - ¿Cuántos días tengo de prorroga?
+    - cuanto tiempo tengo de prorroga?
+
+- intent: ultimo_periodo
+  examples: |
+    - ultimo periodo
+    - Último semestre
+    - Si estoy en último semestre ¿puedo cursar dos periodos?
+
+- intent: evaluacion
+  examples: |
+    - evaluacion
+    - ¿Quién evalua mi trabajo de experiencia recepcional?
+    - lector
+
+- intent: calificacion
+  examples: |
+    - calificacion
+    - ¿Quién asienta mi calificación de experiencia recepcional?
+    - quien asigna mi calificación?
+    - boleta
+
+
+- intent: objecion
+  examples: |
+    - objecion
+    - desacuerdo
+    - ¿con quien puedo acudir si estoy en desacuerdo con la evaluación del jurado?
+  
+- intent: dos_periodos
+  examples: |
+    - dos periodos
+    - ¿Que pasa si no acredito experiencia recepcional en los dos periodos?
+
+- intent: plan_rigido
+  examples: |
+    - plan rigido
+    - titulacion
+    - ¿Cómo puedo titularme si soy del plan rígido?
+
+- intent: plan_rigido
+  examples: |
+    - plan rigido
+    - titulacion
+    - ¿Cómo puedo titularme si soy del plan rigido?
+
+
+- intent: titulacion_promedio
+  examples: |
+    - titulacion promedio
+    - titulacion por promedio
+    - ¿Cómo me puedo titular por promedio?
+    - puedo titularme por promedio?
+
+- intent: titulacion_examen
+  examples: |
+    - titulacion examen
+    - titulacion examen general de conocimientos
+    - Examen General de Conocimientos
+
+- intent: titulacion_egel
+  examples: |
+    - titulacion egel
+    - titulacion Examen General de Egreso
+    - Examen General de Egreso
+    - ceneval
+    
+- intent: examen_plan_rigido
+  examples: |
+    - examen plan rigido
+    - plan rigido
+    - Plan rígido
+    - Si soy del plan rígido qué requisitos existen para presentar examen profesional?
+
+- intent: resultado
+  examples: |
+    - resultado
+    - Examen Profesional
+    - ¿Cuáles son los posibles resultados en un examen profesional?
+    
+- intent: reprobacion
+  examples: |
+    - reprobacion
+    - reprobado
+    - ¿Qué pasa si repruebo el examen profesional?
+
+- intent: mencion_honorifica
+  examples: |
+    - mencion honorifica
+    - ¿Qué es la mención honorífica?
+    - Como obtengo la mencion honorifica?
+
+- intent: calendarios
+  examples: |
+    - calendarios
+    - calendario
+    - fechas
+    - ¿Dónde puedo consultar las fechas para experiencia recepcional?
+    - ¿Qué pasa si se me pasa la fecha de entrega de acta de avance?
+    - ¿Qué pasa si se me pasa la fecha de solicitud de tema viable?
+    - ¿Qué pasa si se me pasa la fecha de presentar el trabajo recepcional?
+
+  
+- intent: formato_inscripcion
+  examples: |
+    - inscripcion formato
+    - ¿Dónde puedo conseguir los formatos de inscripción de tema?
+
+- intent: solicitud_revision
+  examples: |
+    - formato revision
+    - ¿Dónde puedo descargar las actas de revisiones parciales?
+    - parcial
+
+
+- intent: solicitud_prorroga
+  examples: |
+    - formato solicitud prorroga
+    - ¿Dónde puedo descargar el formato de solicitud de Prórroga?
+
+- intent: guia_elaboracion_tesis
+  examples: |
+    - guia elaboracion tesis
+    - guia
+    - ¿Dónde puedo descargar las guías para elaborar una tesis de arquitectura?
+
+- intent: formato_autorizacion_edicion
+  examples: |
+    - formato autorizacion edicion
+    - edicion
+    - autorizacion
+    - ¿Dónde puedo descargar el formato de autorización de edición?
+
+- intent: solicitud_examen
+  examples: |
+    - formato solicitud examen
+    - ¿Dónde puedo descargar el formato de solicitud de examen?

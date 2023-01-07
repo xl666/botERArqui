@@ -174,7 +174,7 @@ responses:
       general de conocimientos o el examen general para el egreso del Ceneval, de existir 
       para el programa educativo que cursó o esté cursando.
 
-  utter_planes_rigidos:
+  utter_plan_rigido:
   - text: |
       - Artículo 87: Los alumnos que cursen planes de estudio rígidos pueden optar por las 
       siguientes modalidades de titulación:
@@ -305,7 +305,7 @@ responses:
       en el siguiente <a href= https://www.uv.mx/arquitectura/vinculacion/ee-experiencia-recepcional/ > enlace </a>
 
   
-  utter_autorizacion_edicion:
+  utter_formato_autorizacion_edicion:
   - text: |
       El formato de autorización de edición E-09 se puede encontrar en 
       el siguiente <a href= https://www.uv.mx/arquitectura/vinculacion/ee-experiencia-recepcional/ > enlace </a>

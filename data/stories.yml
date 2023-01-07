@@ -69,7 +69,7 @@ stories:
 - story: preguntar_evaluacion
   steps:
   - intent: evaluacion
-  - action: utter_evaluacion
+  - action: utter_evaluacion_trabajo_escrito
 
 - story: preguntar_objecion
   steps:
@@ -126,7 +126,7 @@ stories:
 - story: preguntar_calendarios
   steps:
   - intent: calendarios
-  - action: utter_mcalendarios
+  - action: utter_calendarios
 
 - story: preguntar_formato_inscripcion
   steps:
